@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista Dinâmica com API</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+
+</head>
+
+<body>
+
+    <header class="hero">
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../Users/index.html">Usuários</a></li>
+                <li><a href="../Produtos/index.html">Produtos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="app">
+        <div id="form">
+            <h1>Adicionar Produto</h1>
+            <form id="add-user-form">
+                <label for="title">Título:</label>
+                <input type="text" id="title" required>
+
+                <label for="description">Descrição:</label>
+                <input type="text" id="description" required>
+
+                <label for="price">Preço:</label>
+                <input type="tel" id="price">
+
+                <label for="brand">Marca:</label>
+                <input type="email" id="brand" required>
+
+                <label for="category">Categoria:</label>
+                <input type="tel" id="category">
+
+                <label for="thumbnail">Foto:</label>
+                <input type="text" id="thumbnail">
+
+                <button type="button" onclick="addUser()">Adicionar</button>
+            </form>
+        </div>
+        <h1 class="h1">Lista de Produtos</h1>
+        <ul class="grid-container" id="user-list"></ul>
+    </div>
+    <script src="user.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    font-family: aria,Arial, Helvetica, sans-serif;
+    background-color: #ccc;}
+
+.hero {background-image: url(./Content/bg-3.jpg);
+       height: 500px;
+       background-size: cover;
+       background-position: right center;
+       padding-top: 1px;}
+
+.Hero-contet {margin: 50px auto 0;
+    width: 80%;
+    text-align: center;
+    color: white;}
+
+.Hero-contet h1 {font-size: 56px;
+    text-shadow: 2px 2px 2px rgb(15, 15, 5);}
+
+.Hero-contet p {background-color: rgba(0,0,0,0.7);
+    font-size: 15px;
+    display: inline-block;
+    padding: 10px;
+    border-bottom: 2px solid;}
+
+.hero nav ul {margin: 20px 30px 0 0; 
+    text-align: right;}  
+
+.hero nav li {display: inline-block;
+    list-style-type: none;
+    border: 1px solid white;
+    margin-left: 5px;}
+
+.hero nav a{background-color: rgba(0 ,0, 0, .3);
+    padding: 10px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 2px;}
+
+.hero nav a:hover {background-color: rgba(0, 0, 0, .5);}
+
+main {margin: auto;
+    width: 80%;
+    min-width: 400px;
+    max-width: 800px;}
+
+article {background-color: white;
+    padding: 10px;
+    margin-bottom: 32px;
+    margin-top: 32px;}
+
+article h2 {border-bottom: 1px solid #ccc;
+    background-color: #eee;
+    padding: 10px;
+    margin-top: 0px;}
+
+.btn {background-color: #ccc;
+    display: block;
+    padding: 12px;
+    border-radius: 6px;
+    margin-left: auto;
+    width: fit-content;}
+
+.rodape {color: white;
+    background-color: rgb(83, 83, 82);
+    text-align: center;
+    padding: 30px;
+    text-shadow: 2px 2px 2px black;
+    letter-spacing: 2px;}
